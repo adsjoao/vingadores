@@ -1,9 +1,63 @@
-img{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width: 100vw; */
+    background-image: url(./imagens/logovinga.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400px;
+    background-position: left;
+    background-color: rgb(71, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 30px;
+}
+
+h3 {
+    color: rgb(219, 219, 219);
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.profile {
     width: 300px;
     height: 300px ;
     border-radius: 20px;
 }
 
-img:hover{
+.spider:hover {
     background-color: red;
+}
+
+.hulk:hover{
+    background-color: rgb(37, 90, 44);
+}
+
+.captain:hover{
+    background-color: rgb(37, 62, 90);
+}
+
+.thor:hover{
+    background-color: rgb(189, 189, 1);
+}
+
+.ironman:hover{
+    background-color: rgb(119, 35, 23);
 }
